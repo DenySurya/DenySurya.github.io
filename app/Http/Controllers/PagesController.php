@@ -8,7 +8,7 @@ use App\Models\User;
 class PagesController extends Controller
 {
 
-    public function index()
+    public function home()
     {
         return view('/home/index');
     }
